@@ -1,0 +1,144 @@
+.grid {
+    width: 100%;
+    padding:0;
+    display: block;
+}
+.wide_banner {
+    min-width: 1920px;
+    margin:0 auto;
+}
+.wide {
+    max-width: 1170px;
+    margin:0 auto;
+}
+.wide_main {
+    max-width: 1140px;
+    margin:0 auto;
+}
+.wide_prodcut {
+    max-width: 1111px;
+    margin:0 auto;
+}
+.wide_main_footer {
+    max-width: 1403px;
+    margin: 0 auto;
+    padding-left: 120px;
+}
+.row {
+    margin : 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row_slick_slide {
+    width: 1170px;
+    border-top: 1px solid #d7d7d7 !important;
+    border-bottom: 1px solid #d7d7d7 !important;
+    margin-top: 30px;
+}
+.col-lg-2 {
+    width:20%;
+}
+.col-lg-9 {
+    width: 74.4%;
+}
+.col-lg-3-slide {
+    width:24%;
+}
+.col-lg-3 {
+    width:25%;
+    padding: 0 15px;
+}
+.col-lg-5 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+.col-lg-4 {
+    width: 33.33%;
+}
+.col-lg-4-banner {
+    width: 40%;
+}
+.col-lg-8-banner {
+    width: 60%;
+}
+.col-lg-8-1 {
+    width: 66%;
+    padding: 0 15px;
+}
+.col-lg-4-1 {
+    width: 34%;
+    padding: 0 14.5px;
+}
+.col-lg-8-detail {
+    width: 66.66%;
+    padding: 0 15px;
+}
+.col-lg-4-detail {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+@media screen and (max-width:1109px) {
+    .col-md-0 {
+        display: none;
+    }  
+     .col-md-12 {
+        width: 100%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .col-md-5-ipad {
+        width: 40%;
+        padding: 0 15px;
+    }
+    .col-md-7-ipad {
+        width: 60%;
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .col-md-6 {
+        width: 50%;
+        /* padding: 0 15px; */
+    }
+    .col-md-0 {
+      display: none;
+    }
+    .col-md-5 {
+        width: 40%;
+        padding: 0 15px;
+    }
+    .col-md-7 {
+        width: 60%;
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:540px) {
+    .col-md-12-sur {
+        width: 100%;
+    }
+}
+@media screen and (max-width:414px) {
+    .col-sm-12 {
+        width: 100%;
+        padding: 0;
+    }
+    .col-sm-0 {
+        display: none;
+    }
+    .col-sm-12-lk {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
